@@ -1,0 +1,104 @@
+.navContainer{
+    // height: 6rem;
+    padding: 1rem;
+}
+
+.desktopNavigation, .mobileNavigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navRoute{
+    height: 100%;
+    padding: 1rem;
+    color: var(--primary-text);
+    &:hover{
+        color: var(--primary-text);
+        text-decoration: none;
+    }
+}
+
+.navIcon{
+   height: 2rem;
+}
+
+.activeNav {
+    border-bottom: 1px solid black;
+}
+
+.socialMediaIcons{
+    margin: 0 1rem;
+}
+
+.navigationIcon{
+    border: none;
+    background-color: transparent;
+    & div {
+        width: 3rem;
+        height: 0.2rem;
+        background: var(--color-black);
+        border-radius: 1rem;
+        margin: 0.5rem 0;
+    }
+}
+
+.navSliderContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-light);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.3s linear;
+    overflow: scroll;
+}
+
+.open {
+    transform: translateX(0%);
+}
+
+.closeButton{
+    // position: fixed;
+    // top: 0.9rem;
+    // right: 1rem;
+    border: none;
+    background: transparent;
+}
+
+
+.closeButtonContainer{
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+    .desktopNavigation{
+        display: none;
+    }
+    .routeContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .navRoute{
+        padding: 0.5rem 1.5rem;
+    }
+    .navContainer{
+        // height: 3rem;
+    }
+    .activeNav{
+        border: none;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .mobileNavigation{
+        display: none;
+    }
+    .navSliderContainer{
+        display: none;
+    }
+}
+
