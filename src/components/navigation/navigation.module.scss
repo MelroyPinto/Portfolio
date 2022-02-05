@@ -1,5 +1,5 @@
 .navContainer{
-    // height: 6rem;
+    height: 3.5rem;
     padding: 1rem;
 }
 
@@ -18,16 +18,25 @@
     }
 }
 
+.navSocialUrl{
+    height: 100%;
+    padding: 1rem;
+    color: var(--primary-text);
+    &:hover{
+        color: var(--primary-text);
+        text-decoration: none;
+    }
+    & .socialMediaIcons:first-child{
+        margin: 0 1rem 0 0;
+    }
+}
+
 .navIcon{
    height: 2rem;
 }
 
 .activeNav {
     border-bottom: 1px solid black;
-}
-
-.socialMediaIcons{
-    margin: 0 1rem;
 }
 
 .navigationIcon{
@@ -70,7 +79,7 @@
 
 .closeButtonContainer{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 768px) {

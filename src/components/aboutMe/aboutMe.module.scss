@@ -1,0 +1,42 @@
+.paddingTop{
+    padding-top: 3rem;
+}
+
+.marginTop{
+    margin-top: 2rem;
+}
+
+.profileContainer{
+    border-radius: 1rem;
+    min-height: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
+    & .profilePic{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+    }
+    & .alignCenter{
+        text-align: center;
+    }
+    .userName{
+        margin-top: 1rem;
+    }
+    .mtMB{
+        margin: 1rem 0;
+    }
+}
+
+.hobbiesContainer{
+    border-radius: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
+}
+
+.paddingTopBottom{
+    padding: 0.7rem;
+}
