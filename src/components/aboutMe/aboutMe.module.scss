@@ -1,5 +1,6 @@
 .paddingTop{
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .marginTop{
@@ -26,6 +27,10 @@
     }
     .mtMB{
         margin: 1rem 0;
+    }
+    & .hobbies{
+        object-fit: cover;
+        object-position: top;
     }
 }
 
