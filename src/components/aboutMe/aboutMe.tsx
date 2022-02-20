@@ -12,7 +12,7 @@ const AboutMe = () => {
     return (
         <div className={cx(styles.paddingTop, 'container')}>
             <div className={styles.profileContainer}>
-                <h1>About Me</h1>
+                <h1>About <span>Me</span></h1>
                 <Row>
                     <Col lg={{ span: 3 }} className={styles.alignCenter}>
                         <Image src={Images.profilePic} alt="Logo" className={styles.profilePic} width="150" height="150" />
@@ -22,7 +22,7 @@ const AboutMe = () => {
                     <Col lg={{ span: 9 }}>{siteConst.aboutMe}</Col>
                 </Row>
                 <div className={styles.marginTop}>
-                    <h2>My Skills</h2>
+                    <h2>My <span>Skills</span></h2>
                     <Row>
                         {skills.map((skill) => (
                             <Col lg={{ span: 4 }} className={cx(styles.alignCenter, styles.paddingTopBottom)} key={skill.key}>
@@ -34,15 +34,15 @@ const AboutMe = () => {
                         ))}
                     </Row>
                 </div>
-                <div className={styles.marginTop}>
-                    <h3>Below are the things give me Inner Peace</h3>
+                {/* <div className={styles.marginTop}>
+                    <h3>Below are the things that give me Inner Peace</h3>
                     <Row>
                         {hobbies.map((hobby) => (
                             <Col lg={{ span: 4 }} className={cx(styles.alignCenter, styles.paddingTopBottom)} key={hobby.key}>
-                                {/* <div className={styles.hobbiesContainer}>
+                                <div className={styles.hobbiesContainer}>
                                     <Image src={Images.profilePic} alt="Logo" width={100} height="100" />
                                     <p className={styles.userName}>{hobby.title}</p>
-                                </div> */}
+                                </div> 
                                 <Card>
                                     <Image src={Images.profilePic} alt="Logo" width={100} height="250" className={styles.hobbies}/>
                                     <Card.Body>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                             </Col>
                         ))}
                     </Row>
-                </div>
+                </div> */}
             </div>
         </div>
     );

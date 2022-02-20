@@ -17,7 +17,7 @@ const Navigation = () => {
     setNavOpen(!navOpen);
   };
   const router = useRouter();
-  const Logo = <Image src={logo} alt="Logo" width={28} height={20} />;
+  const Logo = <Link href={'/'} passHref><span className={styles.logo}>Melroy <span>Glan</span> Pinto</span></Link>;
   const routes = () => (
     <div className={styles.routeContainer}>
       {navigation.map((nav) => {
@@ -64,7 +64,7 @@ const Navigation = () => {
               className={styles.closeButton}
               onClick={toggleNav}
             >
-              {icons.closeIcon("", "2rem")}
+              {icons.closeIcon("white", "2rem")}
             </button>
           </div>
           {routes()}
