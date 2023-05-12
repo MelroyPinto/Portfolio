@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Card = props => {
+const Card = () => {
     return (
         <div>
             
