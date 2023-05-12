@@ -1,6 +1,13 @@
 :root {
-    --primary-text: #000;
+    --primary-text: rgb(255, 255, 255);
     --secondary-text: rgb(219, 202, 202);
     --color-light: #fff;
-    --color-black: #000;
+    --color-black: rgb(0, 30, 60);
+    --card-border: rgb(0, 30, 60);
+    --card-background: rgb(0, 30, 60);
+    --nav-bck: rgba(10, 25, 41, 0.72);
+    --container: rgb(10 25 41);
+    --container-border: #132f4c;
+    --highlight: rgb(51, 153, 255);
+    --border-highlight: rgb(51, 153, 255);
   }

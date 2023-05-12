@@ -17,6 +17,11 @@ export const navigation = [
 
 export const socialMedia = [
     {
+        key: 4,
+        url: '/',
+        image: icons.steamIcon(),
+    },
+    {
         key: 1,
         url: '/',
         image: icons.facebook()

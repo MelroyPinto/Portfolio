@@ -1,0 +1,79 @@
+.paddingTop{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.marginTop{
+    margin-top: 2rem;
+}
+
+.profileContainer{
+    border-radius: 1rem;
+    min-height: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: var(--container);
+    border: 1px solid var(--container-border);
+    h1, h2, h3{
+        font-family: PlusJakartaSans-ExtraBold, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        text-align: center;
+        font-weight: 300;
+        text-transform: capitalize;
+        color: var(--primary-text);
+        //font-size: clamp(2.625rem, 1.2857rem + 3.5714vw, 4rem);
+        font-weight: 800;
+        line-height: 1.11429;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h1 span, h2 span, h3 span {
+        color: var(--highlight);
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    & .profilePic{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border: 3px solid var(--border-highlight) !important;
+    }
+    & .alignCenter{
+        text-align: center;
+    }
+    .userName{
+        margin-top: 1rem;
+        margin: 10px 0px;
+        font-family: PlusJakartaSans-ExtraBold, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1.2rem;
+        font-weight: 800;
+        line-height: 1.22222;
+        color: var(--color-light);
+    }
+    .mtMB{
+        margin: 1rem 0;
+    }
+    & .hobbies{
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.hobbiesContainer{
+    border-radius: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
+}
+
+.paddingTopBottom{
+    padding: 0.7rem;
+}
