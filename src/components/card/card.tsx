@@ -8,8 +8,4 @@ const Card = () => {
     );
 };
 
-Card.propTypes = {
-    
-};
-
 export default Card;
